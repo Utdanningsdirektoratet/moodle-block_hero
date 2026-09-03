@@ -27,13 +27,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $plugin->version = TODO;
 $plugin->requires = TODO;
-$plugin->supported = TODO;   // Available as of Moodle 3.9.0 or later.
-$plugin->incompatible = TODO;   // Available as of Moodle 3.9.0 or later.
 $plugin->component = 'block_hero';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->release = 'TODO';
-
-$plugin->dependencies = [
-    'mod_forum' => 2022042100,
-    'mod_data' => 2022042100
-];
