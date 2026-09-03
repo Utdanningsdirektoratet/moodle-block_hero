@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Block definition class for the block_pluginname plugin.
+ * Block definition class for the block_hero plugin.
  *
  * @package   block_hero
  * @copyright 2026 Utdanningsdirektoratet https://udir.no
@@ -23,7 +23,7 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-class block_pluginname extends block_base {
+class block_hero extends block_base {
 
     /**
      * Initialises the block.
@@ -31,7 +31,7 @@ class block_pluginname extends block_base {
      * @return void
      */
     public function init() {
-        $this->title = get_string('pluginname', 'block_pluginname');
+        $this->title = get_string('hero', 'block_hero');
     }
 
     /**
@@ -52,7 +52,7 @@ class block_pluginname extends block_base {
         // Add logic here to define your template data or any other content.
         $data = ['YOUR DATA GOES HERE'];
 
-        $this->content->text = $OUTPUT->render_from_template('block_yourplugin/content', $data);
+        $this->content->text = $OUTPUT->render_from_template('block_hero/content', $data);
 
         return $this->content;
     }

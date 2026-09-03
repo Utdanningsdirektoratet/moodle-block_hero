@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Version metadata for the block_pluginname plugin.
+ * Version metadata for the block_hero plugin.
  *
  * @package   block_hero
  * @copyright 2026 Utdanningsdirektoratet https://udir.no
@@ -29,7 +29,7 @@ $plugin->version = TODO;
 $plugin->requires = TODO;
 $plugin->supported = TODO;   // Available as of Moodle 3.9.0 or later.
 $plugin->incompatible = TODO;   // Available as of Moodle 3.9.0 or later.
-$plugin->component = 'TODO_FRANKENSTYLE';
+$plugin->component = 'block_hero';
 $plugin->maturity = MATURITY_STABLE;
 $plugin->release = 'TODO';
 

@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * Languages configuration for the block_pluginname plugin.
+ * Languages configuration for the block_hero plugin.
  *
  * @package   block_hero
  * @copyright 2026 Utdanningsdirektoratet https://udir.no
@@ -23,7 +23,7 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Pluginname block';
-$string['pluginname'] = 'Pluginname';
-$string['pluginname:addinstance'] = 'Add a new pluginname block';
-$string['pluginname:myaddinstance'] = 'Add a new pluginname block to the My Moodle page';
+$string['pluginname'] = 'Hero block';
+$string['pluginname'] = 'Hero';
+$string['pluginname:addinstance'] = 'Add a new hero block';
+$string['pluginname:myaddinstance'] = 'Add a new hero block to the My Moodle page';
