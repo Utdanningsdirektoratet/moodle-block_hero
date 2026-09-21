@@ -1,0 +1,15 @@
+{{!
+    @template block_hero/content
+
+    Hero block content template.
+
+    Example context (json):
+    {
+        "title": "Welcome to the Course Portal"
+    }
+}}
+<div class="block-hero">
+    {{#title}}
+        <h2 class="hero-title">{{title}}</h2>
+    {{/title}}
+</div>
