@@ -23,7 +23,6 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$string['pluginname'] = 'Hero block';
 $string['pluginname'] = 'Hero';
 $string['pluginname:addinstance'] = 'Add a new hero block';
 $string['pluginname:myaddinstance'] = 'Add a new hero block to the My Moodle page';

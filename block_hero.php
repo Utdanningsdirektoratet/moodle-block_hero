@@ -31,7 +31,7 @@ class block_hero extends block_base {
      * @return void
      */
     public function init() {
-        $this->title = get_string('hero', 'block_hero');
+        $this->title = get_string('pluginname', 'block_hero');
     }
 
     /**
