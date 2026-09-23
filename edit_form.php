@@ -27,7 +27,8 @@ class block_hero_edit_form extends block_edit_form {
     protected function specific_definition($mform) {
         // Section header title according to language file.
         $mform->addElement('header', 'config_header', get_string('blocksettings', 'block'));
-        // A sample string variable with a default value.
+
+        // Hero title
         $mform->addElement('text', 'config_text', get_string('blocktitle', 'block_hero'));
         $mform->setDefault('config_text', 'default value');
         $mform->setType('config_text', PARAM_TEXT);
