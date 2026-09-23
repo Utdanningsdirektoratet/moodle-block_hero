@@ -1,0 +1,19 @@
+.block_hero.card {
+    /* remove outline */
+    border: none !important;
+
+    /* use full width */
+    width: 100vw !important;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw !important;
+    margin-right: -50vw !important;
+
+    /* 3. remove margin to top */
+    margin-top: -1.5rem !important;
+}
+
+.block_hero .card-body {
+    padding: 0 !important; /* remove existing padding */
+}
