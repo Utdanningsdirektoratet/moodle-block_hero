@@ -72,4 +72,12 @@ class block_hero extends block_base {
             'my' => true,
         ];
     }
+
+    /**
+     * Allows multiple instances of the block on the same page.
+     * @return true
+     */
+    public function instance_allow_multiple() {
+        return true;
+    }
 }
