@@ -35,6 +35,15 @@ class block_hero extends block_base {
     }
 
     /**
+     * Hides the block header
+     *
+     * @return bool
+     */
+    public function hide_header() {
+        return true;
+    }
+
+    /**
      * Gets the block contents.
      *
      * @return string The block HTML.
