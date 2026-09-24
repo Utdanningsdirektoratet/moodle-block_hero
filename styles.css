@@ -16,4 +16,5 @@
 
 .block_hero .card-body {
     padding: 0 !important; /* remove existing padding */
+    margin-top: -0.5vh; /* make hero stick to top */
 }
