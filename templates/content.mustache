@@ -5,11 +5,23 @@
 
     Example context (json):
     {
-        "title": "Welcome to the Course Portal"
+        "title": "Welcome to the Course Portal",
+        "backgroundimage": "Uploaded via fileupload"
     }
 }}
-<div class="block-hero">
-    {{#title}}
-        <h1 class="hero-title">{{title}}</h1>
-    {{/title}}
-</div>
+<section
+    class="text-white text-center position-relative py-5"
+    {{#backgroundimage}}
+    style="background: url('{{{backgroundimage}}}') center/cover no-repeat;min-height:260px;display:flex;align-items:center;"
+    {{/backgroundimage}}
+>
+    <!-- Dark overlay -->
+    <div class="position-absolute top-0 start-0 w-100 h-100"
+    style="background:rgba(0,0,0,0.6);"></div>
+    <!-- Content -->
+    <div class="container position-relative">
+        {{#title}}
+            <h1 class="display-5 fw-bold mb-3">{{title}}</h1>
+        {{/title}}
+    </div>
+</section>
