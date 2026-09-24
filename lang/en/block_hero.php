@@ -26,5 +26,6 @@
 $string['pluginname'] = 'Hero';
 $string['pluginname:addinstance'] = 'Add a new hero block';
 $string['pluginname:myaddinstance'] = 'Add a new hero block to the My Moodle page';
-$string['blocktitle'] = 'Blocktitle';
+$string['blocktitle'] = 'Title';
+$string['blockdescription'] = 'Description';
 $string['uploadimage'] = 'Background image';

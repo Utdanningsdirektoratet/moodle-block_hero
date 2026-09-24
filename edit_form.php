@@ -46,6 +46,11 @@ class block_hero_edit_form extends block_edit_form {
         $mform->setDefault('config_text', 'default value');
         $mform->setType('config_text', PARAM_TEXT);
 
+        // Hero description
+        $mform->addElement('text', 'config_text', get_string('blockdescription', 'block_hero'));
+        $mform->setDefault('config_text', 'default value');
+        $mform->setType('config_text', PARAM_TEXT);
+
         // Background image
         $mform->addElement(
             'filemanager',

@@ -10,7 +10,7 @@
     }
 }}
 <section
-    class="text-white text-center position-relative py-5"
+    class="text-white position-relative py-5"
     {{#backgroundimage}}
     style="background: url('{{{backgroundimage}}}') center/cover no-repeat;min-height:260px;display:flex;align-items:center;"
     {{/backgroundimage}}
@@ -22,6 +22,9 @@
     <div class="container position-relative">
         {{#title}}
             <h1 class="display-5 fw-bold mb-3">{{title}}</h1>
+        {{/title}}
+        {{#title}}
+            <p class="lead mb-4 opacity-90">{{title}}</p>
         {{/title}}
     </div>
 </section>
