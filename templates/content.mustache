@@ -5,7 +5,8 @@
 
     Example context (json):
     {
-        "title": "Welcome to the Course Portal",
+        "title": "Default Hero Title",
+        "description": "Default Hero Description",
         "backgroundimage": "Uploaded via fileupload"
     }
 }}
@@ -23,8 +24,8 @@
         {{#title}}
             <h1 class="display-5 fw-bold mb-3">{{title}}</h1>
         {{/title}}
-        {{#title}}
-            <p class="lead mb-4 opacity-90">{{title}}</p>
-        {{/title}}
+        {{#description}}
+            <p class="lead mb-4 opacity-90">{{description}}</p>
+        {{/description}}
     </div>
 </section>

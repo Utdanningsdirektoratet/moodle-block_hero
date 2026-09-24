@@ -79,7 +79,8 @@ class block_hero extends block_base {
         }
 
         $data = [
-            'title' => !empty($this->config->text) ? $this->config->text : 'Default Hero Title',
+            'title' => !empty($this->config->title) ? $this->config->title : 'Default Hero Title',
+            'description' => !empty($this->config->description) ? $this->config->description : 'Default Hero Description',
             'backgroundimage' => $backgroundimage,
         ];
 

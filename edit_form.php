@@ -42,14 +42,14 @@ class block_hero_edit_form extends block_edit_form {
         $mform->addElement('header', 'config_header', get_string('blocksettings', 'block'));
 
         // Hero title
-        $mform->addElement('text', 'config_text', get_string('blocktitle', 'block_hero'));
-        $mform->setDefault('config_text', 'default value');
-        $mform->setType('config_text', PARAM_TEXT);
+        $mform->addElement('text', 'config_title', get_string('blocktitle', 'block_hero'));
+        $mform->setDefault('config_title', 'default title');
+        $mform->setType('config_title', PARAM_TEXT);
 
         // Hero description
-        $mform->addElement('text', 'config_text', get_string('blockdescription', 'block_hero'));
-        $mform->setDefault('config_text', 'default value');
-        $mform->setType('config_text', PARAM_TEXT);
+        $mform->addElement('text', 'config_description', get_string('blockdescription', 'block_hero'));
+        $mform->setDefault('config_description', 'default description');
+        $mform->setType('config_description', PARAM_TEXT);
 
         // Background image
         $mform->addElement(
