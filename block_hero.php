@@ -82,6 +82,7 @@ class block_hero extends block_base {
             'title' => !empty($this->config->title) ? $this->config->title : 'Default Hero Title',
             'description' => !empty($this->config->description) ? $this->config->description : 'Default Hero Description',
             'backgroundimage' => $backgroundimage,
+            'searchurl' => new moodle_url('/search/index.php'),
         ];
 
         $this->content->text = $OUTPUT->render_from_template('block_hero/content', $data);

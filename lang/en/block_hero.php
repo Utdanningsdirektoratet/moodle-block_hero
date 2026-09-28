@@ -29,3 +29,6 @@ $string['pluginname:myaddinstance'] = 'Add a new hero block to the My Moodle pag
 $string['blocktitle'] = 'Title';
 $string['blockdescription'] = 'Description';
 $string['uploadimage'] = 'Background image';
+$string['searchplaceholder'] = 'Searchtext';
+$string['searcharia'] = 'Searchtext';
+$string['searchsubmit'] = 'Search';

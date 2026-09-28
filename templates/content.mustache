@@ -7,7 +7,7 @@
     {
         "title": "Default Hero Title",
         "description": "Default Hero Description",
-        "backgroundimage": "Uploaded via fileupload"
+        "backgroundimage": Uploaded via fileupload
     }
 }}
 <section
@@ -20,12 +20,26 @@
     <div class="position-absolute top-0 start-0 w-100 h-100"
     style="background:rgba(0,0,0,0.6);"></div>
     <!-- Content -->
-    <div class="container position-relative">
+    <div class="ml-4 position-relative">
         {{#title}}
             <h1 class="display-5 fw-bold mb-3">{{title}}</h1>
         {{/title}}
         {{#description}}
             <p class="lead mb-4 opacity-90">{{description}}</p>
         {{/description}}
+        <form action="{{searchurl}}" method="get">
+            <div class="input-group">
+                <input
+                    type="text"
+                    name="q"
+                    class="form-control"
+                    placeholder={{#str}} searchplaceholder, block_hero {{/str}}
+                    aria-label={{#str}} searcharia, block_hero {{/str}}
+                >
+                <button type="submit" class="btn btn-primary">
+                    {{#str}} searchsubmit, block_hero {{/str}}
+                </button>
+            </div>
+        </form>
     </div>
 </section>
