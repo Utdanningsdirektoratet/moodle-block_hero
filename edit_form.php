@@ -59,6 +59,30 @@ class block_hero_edit_form extends block_edit_form {
             null,
             $this->filemanager_options() 
         );
+
+        // Hero popular theme 1
+        $mform->addElement('text', 'config_populartheme1', get_string('populartheme_text', 'block_hero'));
+        $mform->setDefault('config_populartheme1', 'Popular Theme 1');
+        $mform->setType('config_populartheme1', PARAM_TEXT);
+        $mform->addElement('text', 'config_populartheme1url', get_string('populartheme_url', 'block_hero'));
+        $mform->setDefault('config_populartheme1url', '');
+        $mform->setType('config_populartheme1url', PARAM_URL);
+
+        // Hero popular theme 2
+        $mform->addElement('text', 'config_populartheme2', get_string('populartheme_text', 'block_hero'));
+        $mform->setDefault('config_populartheme2', 'Popular Theme 2');
+        $mform->setType('config_populartheme2', PARAM_TEXT);
+        $mform->addElement('text', 'config_populartheme2url', get_string('populartheme_url', 'block_hero'));
+        $mform->setDefault('config_populartheme2url', '');
+        $mform->setType('config_populartheme2url', PARAM_URL);
+
+        // Hero popular theme 3
+        $mform->addElement('text', 'config_populartheme3', get_string('populartheme_text', 'block_hero'));
+        $mform->setDefault('config_populartheme3', 'Popular Theme 3');
+        $mform->setType('config_populartheme3', PARAM_TEXT);
+        $mform->addElement('text', 'config_populartheme3url', get_string('populartheme_url', 'block_hero'));
+        $mform->setDefault('config_populartheme3url', '');
+        $mform->setType('config_populartheme3url', PARAM_URL);
     }
 
     /**

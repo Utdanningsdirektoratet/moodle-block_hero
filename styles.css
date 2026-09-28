@@ -18,3 +18,23 @@
     padding: 0 !important; /* remove existing padding */
     margin-top: -0.5vh; /* make hero stick to top */
 }
+
+.populartheme {
+    background-color: #BBE3CE !important;
+    outline: 2px solid #76C69D !important;
+    color: #303030 !important;
+
+}
+
+.populartheme:hover {
+    background-color: #76C69D !important;
+}
+
+.udir-search {
+    background-color: #5BA27E !important;
+    color: #FFFFFF !important;
+}
+
+.udir-search:hover {
+    background-color: #254B38 !important;
+}

@@ -25,7 +25,7 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2026092800;
+$plugin->version = 2026092801;
 $plugin->component = 'block_hero';
-$plugin->maturity = MATURITY_ALPHA;
-$plugin->release = 'v1.2.0-alpha.1';
+$plugin->maturity = MATURITY_BETA;
+$plugin->release = 'v1.0.0-beta.1';

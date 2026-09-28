@@ -79,10 +79,19 @@ class block_hero extends block_base {
         }
 
         $data = [
+            // Title + description
             'title' => !empty($this->config->title) ? $this->config->title : 'Default Hero Title',
             'description' => !empty($this->config->description) ? $this->config->description : 'Default Hero Description',
+            // Background image
             'backgroundimage' => $backgroundimage,
             'searchurl' => new moodle_url('/search/index.php'),
+            // Themes
+            'populartheme1' => !empty($this->config->populartheme1) ? $this->config->populartheme1 : 'Popular Theme 1',
+            'populartheme1url' => !empty($this->config->populartheme1url) ? $this->config->populartheme1url : '#',
+            'populartheme2' => !empty($this->config->populartheme2) ? $this->config->populartheme2 : 'Popular Theme 2',
+            'populartheme2url' => !empty($this->config->populartheme2url) ? $this->config->populartheme2url : '#',
+            'populartheme3' => !empty($this->config->populartheme3) ? $this->config->populartheme3 : 'Popular Theme 3',
+            'populartheme1ur3' => !empty($this->config->populartheme3url) ? $this->config->populartheme3url : '#',
         ];
 
         $this->content->text = $OUTPUT->render_from_template('block_hero/content', $data);

@@ -32,3 +32,5 @@ $string['uploadimage'] = 'Background image';
 $string['searchplaceholder'] = 'Searchtext';
 $string['searcharia'] = 'Searchtext';
 $string['searchsubmit'] = 'Search';
+$string['populartheme_text'] = 'Popular Theme Name';
+$string['populartheme_url'] = 'Popular Theme URL';
