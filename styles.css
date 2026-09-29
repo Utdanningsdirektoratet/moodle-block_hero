@@ -30,6 +30,14 @@
     background-color: #76C69D !important;
 }
 
+.udir-formsearch {
+    max-width: 540px;
+
+    @media (width <= 500px) {
+        width: 75%;
+    }
+}
+
 .udir-search {
     background-color: #5BA27E !important;
     color: #FFFFFF !important;

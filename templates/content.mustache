@@ -27,22 +27,20 @@
         {{#description}}
             <p class="lead mb-4 opacity-90">{{description}}</p>
         {{/description}}
-        <div style="width: 33%;">
-            <form action="{{searchurl}}" method="get">
-                <div class="input-group">
-                    <input
-                        type="text"
-                        name="q"
-                        class="form-control"
-                        placeholder={{#str}} searchplaceholder, block_hero {{/str}}
-                        aria-label={{#str}} searcharia, block_hero {{/str}}
-                    >
-                    <button type="submit" class="btn udir-search">
-                        {{#str}} searchsubmit, block_hero {{/str}}
-                    </button>
-                </div>
-            </form>
-        </div>
+        <form action="{{searchurl}}" method="get" class="udir-formsearch">
+            <div class="input-group">
+                <input
+                    type="text"
+                    name="q"
+                    class="form-control"
+                    placeholder={{#str}} searchplaceholder, block_hero {{/str}}
+                    aria-label={{#str}} searcharia, block_hero {{/str}}
+                >
+                <button type="submit" class="btn udir-search">
+                    {{#str}} searchsubmit, block_hero {{/str}}
+                </button>
+            </div>
+        </form>
         <div class="d-flex mt-4 gap-3 align-items-center flex-wrap udir-text">
             <a href="{{populartheme1url}}" class="btn px-4 populartheme">
                 {{populartheme1}} →
