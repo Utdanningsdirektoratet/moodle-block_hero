@@ -84,7 +84,7 @@ class block_hero extends block_base {
             'description' => !empty($this->config->description) ? $this->config->description : 'Default Hero Description',
             // Background image
             'backgroundimage' => $backgroundimage,
-            'searchurl' => new moodle_url('/search/index.php'),
+            'searchurl' => new moodle_url('/course/search.php'),
             // Themes
             'populartheme1' => !empty($this->config->populartheme1) ? $this->config->populartheme1 : 'Popular Theme 1',
             'populartheme1url' => !empty($this->config->populartheme1url) ? $this->config->populartheme1url : '#',
