@@ -30,6 +30,12 @@
     background-color: #76C69D !important;
 }
 
+.udir-herobg {
+    min-height:480px;
+    display:flex;
+    align-items:center;
+}
+
 .udir-formsearch {
     max-width: 540px;
 
