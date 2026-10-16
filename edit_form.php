@@ -47,7 +47,7 @@ class block_hero_edit_form extends block_edit_form {
         $mform->setType('config_title', PARAM_TEXT);
 
         // Hero description
-        $mform->addElement('text', 'config_description', get_string('blockdescription', 'block_hero'));
+        $mform->addElement('textarea', 'config_description', get_string('blockdescription', 'block_hero'));
         $mform->setDefault('config_description', 'default description');
         $mform->setType('config_description', PARAM_TEXT);
 
@@ -57,7 +57,7 @@ class block_hero_edit_form extends block_edit_form {
             'config_attachments',
             get_string('uploadimage', 'block_hero'),
             null,
-            $this->filemanager_options() 
+            $this->filemanager_options()
         );
 
         // Hero popular theme 1
