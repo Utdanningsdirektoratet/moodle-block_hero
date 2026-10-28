@@ -2,6 +2,8 @@
 
 The Hero block adds a full-width banner to Moodle pages, with an optional background image, title, description, course search, and up to three popular-topic links.
 
+<img width="2848" height="1598" alt="image" src="https://github.com/user-attachments/assets/67fc322c-850c-470f-b50d-f5b946fd207a" />
+
 ## ❓ About Utdanningsdirektoratet
 
 > _Visit [udir.no](https://www.udir.no/) for more information._
