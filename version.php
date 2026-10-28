@@ -25,7 +25,9 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2026102600;
+$plugin->version = 2026102601;
+$plugin->requires = 2026042000; // Moodle 5.2
+$plugin->supported = [502]; // Not tested on anything before Moodle 5.2
 $plugin->component = 'block_hero';
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = 'v1.0.0';
+$plugin->release = 'v1.0.1';
